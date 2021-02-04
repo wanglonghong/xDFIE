@@ -1,0 +1,48 @@
+{
+  "name": "xDFIEToken",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abcoathup/DFIEToken.git"
+  },
+  "keywords": [
+    "ERC20",
+    "Swap",
+    "truffle",
+    "dapp"
+  ],
+  "author": "Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abcoathup/xDFIEToken/issues"
+  },
+  "homepage": "https://github.com/abcoathup/xDFIEToken#readme",
+  "devDependencies": {
+    "@openzeppelin/test-environment": "0.1.0-rc.1",
+    "@openzeppelin/test-helpers": "^0.5.4",
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "ganache-cli": "^6.7.0",
+    "mocha": "^6.2.2",
+    "solhint": "^2.3.0",
+    "truffle": "^5.0.41",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "lite-server": "^2.3.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.2.1-solc-0.7",
+    "chai": "^4.2.0",
+    "lite-server": "^2.3.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.2"
+  }
+}
